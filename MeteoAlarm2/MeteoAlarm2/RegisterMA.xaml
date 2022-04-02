@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MeteoAlarm2.RegisterMA"
+             Visual="Material"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <Frame 
+                BackgroundColor="#033744" 
+                Padding="40" 
+                CornerRadius="10">
+                <Image Source="logotipo.png"></Image>
+            </Frame>
+            
+            <Label 
+                Text="Registro" 
+                FontSize="Title" 
+                Padding="30,10,30,10"/>
+            
+            <Label 
+                Text="Ingresa tus datos de registro" 
+                FontSize="16" 
+                Padding="30,0,30,0"/>
+
+            <ScrollView>
+                <StackLayout 
+                    VerticalOptions="CenterAndExpand" 
+                    Padding="20,10,20,10">
+                    
+                    <Entry 
+                        Placeholder="Nombre: " 
+                        TextColor="Gray" 
+                        BackgroundColor="White" 
+                        HorizontalOptions="FillAndExpand"/>
+                    
+                    <Entry 
+                        Placeholder="Apellido: " 
+                        TextColor="Gray" 
+                        BackgroundColor="White"
+                        HorizontalOptions="FillAndExpand"/>
+                    
+                    <Entry 
+                        Placeholder="Correo Electronico: " 
+                        TextColor="Gray" 
+                        BackgroundColor="White"
+                        HorizontalOptions="FillAndExpand"/>
+                    
+                    <Entry 
+                        Placeholder="Contraseña: " 
+                        TextColor="Gray" 
+                        BackgroundColor="White"
+                        HorizontalOptions="FillAndExpand"/>
+                    
+                    <Entry 
+                        Placeholder="Numero de telefono: " 
+                        TextColor="Gray" 
+                        BackgroundColor="White"
+                        HorizontalOptions="FillAndExpand"/>
+          
+                    <Entry 
+                        Placeholder="Departamento: " 
+                        TextColor="Gray" 
+                        BackgroundColor="White"
+                        HorizontalOptions="FillAndExpand"/>
+                    
+                    <Entry 
+                        Placeholder="Ciudad: " 
+                        TextColor="Gray" 
+                        BackgroundColor="White"
+                        HorizontalOptions="FillAndExpand"/>
+                    
+                </StackLayout>
+            </ScrollView>
+            
+            <StackLayout 
+                VerticalOptions="EndAndExpand" 
+                Padding="20,10,20,10">
+                
+                <Button 
+                    Text="Registrarse" 
+                    x:Name="btnRegistro" 
+                    BackgroundColor="#033744" 
+                    CornerRadius="62" 
+                    HeightRequest="50" 
+                    Clicked="btnRegistro_Clicked"/>
+            </StackLayout>
+            
+            <StackLayout 
+                VerticalOptions="EndAndExpand" 
+                Padding="20,10,20,10">
+                
+                <Label 
+                    Text="Ya tienes una cuenta"></Label>
+                <Button 
+                    Text="Log in" 
+                    x:Name="btnLogin" 
+                    Clicked="btnLogin_Clicked"></Button>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

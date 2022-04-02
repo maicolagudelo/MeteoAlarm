@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:MeteoAlarm2="clr-namespace:MeteoAlarm2"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            x:Class="MeteoAlarm2.TabbedPage1"
+            NavigationPage.HasNavigationBar="False">
+  <!--Pages can be added as references or inline-->
+    <MeteoAlarm2:inicio Title="Inicio" IconImageSource="home.png"></MeteoAlarm2:inicio>
+    <MeteoAlarm2:mapa Title="Mapa" IconImageSource="mapa.png"></MeteoAlarm2:mapa>
+    <MeteoAlarm2:desastres Title="Desastres" IconImageSource="desastres.png"></MeteoAlarm2:desastres>
+    <MeteoAlarm2:sismos Title="Sismos" IconImageSource="sismos.png"></MeteoAlarm2:sismos>
+    <MeteoAlarm2:perfil Title="Perfil" IconImageSource="perfil.png"></MeteoAlarm2:perfil>
+</TabbedPage>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MeteoAlarm2.MainPage"
+             Visual="Material"
+             NavigationPage.HasNavigationBar="False">
+
+    <StackLayout>
+        
+        <Frame 
+            BackgroundColor="#033744" 
+            Padding="40" 
+            CornerRadius="10">
+            <Image Source="logotipo.png"></Image>
+        </Frame>
+        
+        <Label 
+            Text="Login" 
+            FontSize="Title" 
+            Padding="30,10,30,10"
+        />
+        
+        <Label 
+            Text="Accede a tu cuenta" 
+            FontSize="16" 
+            Padding="30,0,30,0"
+        />
+
+        <StackLayout VerticalOptions="CenterAndExpand" Padding="20,10,20,10">
+            <Entry 
+                Placeholder="Correo Electronico: " 
+                Keyboard="Email"
+                MaxLength="30"
+                Text="{Binding EmailTxt, Mode=TwoWay}"
+                IsEnabled="{Binding IsEnableTxt}"
+                TextColor="Gray" 
+                BackgroundColor="White"
+                HorizontalOptions="FillAndExpand"/>
+            
+            <Entry 
+                Placeholder="Contraseña: "
+                MaxLength="25"
+                IsPassword="True"
+                Text="{Binding ContraseñaTxt, Mode=TwoWay}"
+                IsEnabled="{Binding IsEnabledTxt}"
+                TextColor="Gray" 
+                BackgroundColor="White"
+                HorizontalOptions="FillAndExpand"/>
+        </StackLayout>
+
+        <StackLayout 
+            VerticalOptions="EndAndExpand" 
+            Padding="20,10,20,10">
+            <Button 
+                Text="Ingresar" 
+                x:Name="btnReg" 
+                BackgroundColor="#033744" 
+                CornerRadius="62" 
+                HeightRequest="50" 
+                Command="{Binding RegCommand}"
+                Clicked="btnReg_Clicked"
+             />
+        </StackLayout>
+
+        <StackLayout 
+            VerticalOptions="EndAndExpand" 
+            Padding="20,10,20,10">
+
+            <Label 
+                Text="¿Aun no tienes una cuenta? Crea una ahora mismo">
+            </Label>
+
+            <Button Text="Registrarse" 
+                    x:Name="btnRegis" 
+                    Clicked="btnRegis_Clicked">
+            </Button>
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>
