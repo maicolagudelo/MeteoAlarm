@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "933842077686",
+    "project_id": "meteoalarm-7ca0e",
+    "storage_bucket": "meteoalarm-7ca0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933842077686:android:d5ae5f6ef733170dc569d7",
+        "android_client_info": {
+          "package_name": "com.companyname.meteoalarm2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933842077686-kgqa5bl0itmbjvnm4r66o7s7cn2fd89c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.companyname.meteoalarm2",
+            "certificate_hash": "f985896c9c34a91eaab69ecd2a27fb8ac9fc8b37"
+          }
+        },
+        {
+          "client_id": "933842077686-okbcn4hrubu8bgc1g13a4gd4salrppb4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD8uRY3F58Kdr0fWXrM-OWC5eLkx9KEjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933842077686-okbcn4hrubu8bgc1g13a4gd4salrppb4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
