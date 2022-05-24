@@ -123,6 +123,9 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="FirebaseAuthentication.net">
+      <Version>3.7.2</Version>
+    </PackageReference>
     <PackageReference Include="Newtonsoft.Json">
       <Version>13.0.1</Version>
     </PackageReference>
@@ -134,9 +137,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\MeteoAlarm2\MeteoAlarm2.csproj">
-      <Project>{B3FE38D7-E988-4C24-AF24-CDD1FD004010}</Project>
-      <Name>MeteoAlarm2</Name>
+    <ProjectReference Include="..\MeteoAlarm2\MeteoAlarm.csproj">
+      <Project>{8132F111-6900-4CF2-834F-20B8A05D7E34}</Project>
+      <Name>MeteoAlarm</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

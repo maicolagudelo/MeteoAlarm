@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
+
 namespace MeteoAlarm2
 {
     public partial class MainPage : ContentPage

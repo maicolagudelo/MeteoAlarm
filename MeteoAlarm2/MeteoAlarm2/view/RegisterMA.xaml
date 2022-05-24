@@ -33,39 +33,47 @@
                         Placeholder="Nombre: " 
                         TextColor="Gray" 
                         BackgroundColor="White" 
-                        HorizontalOptions="FillAndExpand"/>
+                        HorizontalOptions="FillAndExpand"
+                        x:Name="nombre"/>
+                       
                     
                     <Entry 
                         Placeholder="Apellido: " 
+                        x:Name="apellido"
                         TextColor="Gray" 
                         BackgroundColor="White"
                         HorizontalOptions="FillAndExpand"/>
                     
                     <Entry 
-                        Placeholder="Correo Electronico: " 
+                        x:Name="email"
+                        Placeholder="Email: " 
                         TextColor="Gray" 
                         BackgroundColor="White"
                         HorizontalOptions="FillAndExpand"/>
                     
                     <Entry 
+                        x:Name="password"
                         Placeholder="Contraseña: " 
                         TextColor="Gray" 
                         BackgroundColor="White"
                         HorizontalOptions="FillAndExpand"/>
                     
                     <Entry 
+                        x:Name="telefono"
                         Placeholder="Numero de telefono: " 
                         TextColor="Gray" 
                         BackgroundColor="White"
                         HorizontalOptions="FillAndExpand"/>
           
                     <Entry 
+                        x:Name="departamento"
                         Placeholder="Departamento: " 
                         TextColor="Gray" 
                         BackgroundColor="White"
                         HorizontalOptions="FillAndExpand"/>
                     
                     <Entry 
+                        x:Name="ciudad"
                         Placeholder="Ciudad: " 
                         TextColor="Gray" 
                         BackgroundColor="White"

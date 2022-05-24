@@ -39,7 +39,7 @@
     <EmbeddedResource Update="perfil.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="RegisterMA.xaml">
+    <EmbeddedResource Update="view\RegisterMA.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="sismos.xaml">
