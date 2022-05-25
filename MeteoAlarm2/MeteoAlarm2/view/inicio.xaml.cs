@@ -16,7 +16,7 @@ namespace MeteoAlarm2
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class inicio : ContentPage
     {
-        private string url= "https://retoolapi.dev/2o5yrB/sgcsismos";
+        private string url= "https://retoolapi.dev/B5F2g6/sgcsismos";
         HttpClient cliente = new HttpClient();
         public inicio()
         {
